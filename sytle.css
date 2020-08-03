@@ -1,0 +1,224 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-size: 10px;
+	font-family: 'Indie Flower', cursive;
+	letter-spacing: 1.8px;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+img {
+	width: 100%;
+}
+
+li > a {
+	color: white;
+	font-family: 'Indie Flower', cursive;
+	font-size: 2em;
+	font-weight: 200;
+	text-decoration: none;
+}
+
+h2,
+h3 {
+	font-family: 'Indie Flower', cursive;
+}
+
+section h2 {
+	font-size: 1.5em;
+	margin: 15px 0;
+	font-weight: 600;
+	color: white;
+	background: rgba(220, 25, 25, .9);
+	padding: 5px;
+}
+
+section {
+	height: 70vh;
+}
+
+.nav-link {
+	height: 40px;
+}
+
+.carousel-item img {
+	width: 100% !important;
+	height: 10% !important;
+}
+
+.carousel-item p {
+	padding: 5px;
+	margin-top: 5px;
+}
+
+#carousel > a {
+	color: black;
+}
+
+#navbar,
+footer {
+	background: linear-gradient(to right, #f00000, #dc281e);
+}
+
+#title,
+#title2 {
+	color: white;
+	font-family: 'Pacifico', cursive;
+	font-weight: 400;
+}
+
+#title2 {
+	font-size: 3em;
+	margin-bottom: 30px;
+	text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.94);
+}
+
+#sign {
+	border: 10px solid rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+	padding: 20px;
+}
+
+#sign:hover {
+	border: 10px solid rgba(200, 25, 25, 1);
+}
+
+#sign > h3 {
+	font-size: 1.5em;
+	font-style: italic;
+	padding: 10px;
+	background: linear-gradient(to right, #f00000, #dc281e);
+	text-shadow: 3px 5px 6px rgba(0, 0, 0, 0.94);
+	box-shadow: -2px 10px 10px rgba(0, 0, 0, 0.94);
+}
+
+#landing {
+	background: url(images/img2.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+	margin-top: 2vh;
+}
+
+#hwcook {
+	height: 100%;
+}
+
+#gallery {
+	height: 100%;
+}
+
+#gallery img {
+	padding: 10px;
+	height: 100%;
+	border-radius: 20px;
+}
+
+#contact {
+	height: 100%;
+}
+
+.group {
+	display: flex;
+	height: 40px;
+	margin: 15px;
+}
+
+.group > label {
+	width: 30%;
+	color: black;
+	text-align: right;
+	height: 100%;
+	font-size: 1.3em;
+	margin-right: 10px;
+}
+
+.group > input,
+.group > select,
+.group > button {
+	width: 60%;
+	max-width: 500px;
+	color: black;
+	height: 100%;
+	padding: 5px;
+}
+
+.group > button {
+	width: 40%;
+	color: white;
+	font-weight: 600;
+	border-radius: 5px;
+	border: none;
+	background: linear-gradient(to right, #f00000, #dc281e);
+}
+
+.group > button:hover {
+	color: red;
+	background: white;
+	border: 1px solid red;
+}
+
+footer {
+	height: 20vh;
+	text-align: center;
+	font-size: 2em;
+	color: white;
+	padding-top: 40px;
+}
+
+.icons {
+	margin: 5px 10px;
+}
+
+footer > p {
+	font-size: 15px;
+}
+
+.icons > a {
+	text-decoration: none;
+	color: white;
+}
+
+.icons > a:hover {
+	color: black;
+}
+
+@media only screen and (min-width: 767px) {
+	#sign > h3 {
+		font-size: 2.5em;
+	}
+
+	#title {
+		font-size: 2.5em;
+	}
+
+	#title2 {
+		font-size: 5em;
+	}
+
+	section h2 {
+		font-size: 2.2em;
+	}
+	#landing {
+		height: 110vh;
+	}
+
+	.group > button {
+		width: 15%;
+	}
+
+	.nav-link {
+		height: 50px;
+	}
+}
